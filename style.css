@@ -12,28 +12,28 @@
 
 /*ヘッダー*/
 header {
-}
-
-.headline {
-	margin: 20px auto;
+	width: 100%;
+	padding: 20px 0;
 	text-align: center;
 }
 
-/*ナビゲーション*/
-nav {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
+header .headline {
+	font-size: 32px;
 }
 
+/*ナビゲーション*/
 .list {
+	text-align: center;
+	padding: 15px 0;
 	margin: 0 auto;
-
+  	border-bottom: 1px solid #848282;
+  	border-top: 1px solid #848282;
 }
 
 .list-item {
-	float: left;
-	padding: 15px 20px;
+	display: inline-block;
 	list-style: none;
+	margin: 0 20px;
 }
 
 /*メイン*/
@@ -44,8 +44,6 @@ nav {
 }
 
 /*緑の列*/
-.green-contents {}
-
 .greenbox-1 {
 	width: 200px;
 	height: 200px;
@@ -75,8 +73,6 @@ nav {
 }
 
 /*黄色の列*/
-.yellow-contents {}
-
 .yellowbox-1 {
 	width: 200px;
 	height: 200px;
@@ -106,8 +102,6 @@ nav {
 }
 
 /*青の列*/
-.blue-contents {}
-
 .bluebox-1 {
 	width: 200px;
 	height: 200px;
@@ -138,9 +132,13 @@ nav {
 
 /*フッター*/
 footer {
+	width: 100%;
 	height: 120px;
-	color: #fff;
 	background-color: gray;
 	text-align: center;
 	line-height: 120px;
+}
+
+.footer-text {
+	color: #fff;
 }
